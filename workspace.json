@@ -1,0 +1,6 @@
+{
+  "version": 2,
+  "projects": {
+    "my-server": "apps/my-server"
+  }
+}
