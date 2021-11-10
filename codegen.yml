@@ -1,0 +1,14 @@
+schema: http://localhost:3333/graphql
+generates:
+  ./gen/graphql/nest-types.d.ts:
+    documents: 'apps/**/*.graphql.ts'
+    plugins:
+      - typescript
+      - typescript-operations
+
+  ./apps/my-client/gen/graphql/react-types.ts:
+    documents: 'apps/**/*.graphql.ts'
+    plugins:
+      - typescript
+      - typescript-operations
+      - typescript-react-apollo

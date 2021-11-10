@@ -1,6 +1,8 @@
 {
   "version": 2,
   "projects": {
+    "my-client": "apps/my-client",
+    "my-client-e2e": "apps/my-client-e2e",
     "my-server": "apps/my-server"
   }
 }
